@@ -9,14 +9,23 @@ const addFunction = function(num1, num2) {
     return num1 + num2;
 };
 
-// keydinta qiimayasha kala duwan
 
-let finalResult = add(4, 4)
-let result = addFunction(50, 50)
 
-// kuso bandhigida console-ka qimayasha kala duwan
-console.log(finalResult);
-console.log(result);
+//  kuso bandhigida console-ka qimayasha kala duwan ee
+// function declaration-ka
+
+console.log(add(10,44));
+console.log(add(10,42));
+console.log(add(90,9));
+console.log(add(1,3));
+console.log(add(6,5));
+
+//  kuso bandhigida console-ka qimayasha kala duwan ee
+// function expression-ka
+
+console.log(addFunction(69,70));
+console.log(addFunction(7,7));
+console.log(addFunction(7,5));
 
 
 
